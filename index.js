@@ -5,9 +5,9 @@ function changeImage() {
   var pic;
   count++
   if ((count % 2) == 1) {
-    pic = "/images/no smack.png"
+    pic = "no smack.png"
   } else {
-    pic = "/images/smack.png"
+    pic = "smack.png"
   }
   document.getElementById('myImage').src = pic;
 }
